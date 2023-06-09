@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+#leaderboard {
+    width: 200px;
+    margin-right: 50px;
+}
+#chat {
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+
+}
+#chat-input, #chat-send {
+    width: 100%;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Adjust this value to fit your layout */
+}
+
+
+
+#chat-messages-container {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+#chat-form {
+    position: absolute;
+    
+    bottom: 0;
+    border: 20px ; /* Same color as chat background */
+    /* Add other styles as needed */
+    
+}
+
+#chat-form input, #chat-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#chat-form button {
+    background-color: #4CAF50; /* You can change this to any color you like */
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Ajoutez une marge pour l'espacement */
+    
+
+}
+
+#chat-form button:hover {
+    background-color: #45a049;
+}
+
+
